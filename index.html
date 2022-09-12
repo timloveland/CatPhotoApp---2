@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Photo App - New</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>CatPhotoApp - New</h1>
+      <p>Here's a page about cats.</p>
+    </header>
+    
+    <div class="image">
+      <a href="https://thecatsite.com/" target="_blank" id="wrap">
+      <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+    </div>
+  
+    <section id="list">
+      <div class="three-things">
+        <h2 class="love">Things cats love:</h2>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <h2>Top 3 things cats hate:</h2>
+        <ol>
+         <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
+    </section>
+  
+    <section id="form">
+      <div class="form">
+        <form method="post" action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset class="radio">
+            <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+            <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+          </fieldset>
+          <fieldset class="checkbox">
+            <label><input type="checkbox" name="personality" checked> Loving</label>
+            <label><input type="checkbox" name="personality"> Lazy</label>
+            <label><input type="checkbox" name="personality"> Energetic</label><br>
+          </fieldset>
+          <fieldset class="text">
+            <label>Enter your cat's name:  </label><input id="text" type="text" required>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
